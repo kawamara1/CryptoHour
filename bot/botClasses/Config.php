@@ -21,7 +21,7 @@
  *
  */
 
-namespace CryptoStatus;
+namespace CryptoBot;
 
 use CryptoBot\Exceptions\ConfigException;
 
