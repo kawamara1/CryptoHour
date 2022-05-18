@@ -58,7 +58,7 @@ class CryptoBot
                 return "#{$data['rank']} #{$data['symbol']} (#{$data['name']}): {$data['price_usd']} USD | {$data['price_btc']} BTC | {$data['percent_change_1h']}% 1h";
             }
 
-            throw new CryptoStatusException('Crypto data is missing', 1);
+            throw new CryptoBotException('Crypto data is missing', 1);
         }, $this->dataset);
     }
 
@@ -144,7 +144,7 @@ class CryptoBot
         }
 
         if ($deleted_counter != count($tweet_ids)) {
-            throw new CryptoStatusException('Deleting Tweets failed', 2);
+            throw new CryptoBotException('Deleting Tweets failed', 2);
         }
     }
 
