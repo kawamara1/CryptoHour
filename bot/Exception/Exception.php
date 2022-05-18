@@ -23,7 +23,7 @@ declare(strict_types=1);
  *
  */
 
-namespace CryptoStatus\Exceptions;
+namespace CryptoBot\Exceptions;
 
 abstract class Exception extends \Exception
 {
