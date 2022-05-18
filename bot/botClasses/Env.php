@@ -21,9 +21,9 @@
  *
  */
 
-namespace CryptoStatus;
+namespace CryptoBot;
 
-use CryptoStatus\Exceptions\EnvException;
+use CryptoBot\Exceptions\EnvException;
 
 class Env
 {
