@@ -23,9 +23,9 @@ declare(strict_types=1);
  *
  */
 
-namespace CryptoStatus\Exceptions;
+namespace CryptoBot\Exceptions;
 
-class CryptoStatusException extends Exception
+class CryptoBotException extends Exception
 {
 
 }
